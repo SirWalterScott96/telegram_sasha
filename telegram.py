@@ -11,10 +11,9 @@ slot_info = {
     '3': 'результати',
 }
 
-
 @bot.message_handler(commands=['start'])
 def send_message(message):
-    bot.send_message(message.chat.id, 'Привіт Сашін')
+    bot.send_message(message.chat.id, 'Привіт Сашко')
 
 @bot.message_handler(commands=['reset'])
 def reset_slot(message):
